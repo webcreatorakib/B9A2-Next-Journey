@@ -1,0 +1,133 @@
+/* _______Here is google fonts link Mulish________ */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+/* _______Basic setup________ */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Mulish', sans-serif;
+    font-size: 62.5%;
+}
+.container{
+    max-width:117rem;
+    margin:auto;
+}
+h1{
+    font-size: 6.4rem;
+    font-weight: 800;
+    color:#fff;
+    margin-bottom:2.4rem;
+}
+h2{
+    font-size: 4rem;
+    font-weight: 800;
+    color:#131318;
+}
+h3{
+    font-size:3.6rem;
+    font-weight:800;
+    color: #131318;
+}
+p{
+    font-size:1.6rem;
+    font-weight: 400;
+    color:rgba(19, 19, 24, 0.70);
+    line-height: 2.6rem;
+}
+a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color:#424247;
+}
+.btn{
+    border:none;
+    background-color:#FF5400;
+    border-radius: .8rem;
+    padding:1.5rem 2.5rem;
+    color:#fff;
+    font-weight: 800;
+    text-align: center;
+    cursor: pointer;
+}
+/* _________Here is Header style__________ */
+/* navigation bar */
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5rem 0;
+}
+header .logo{
+    display: flex;
+    gap:1.6rem;
+}
+header .logo h3 span{
+    color:#FF5400;
+}
+header .navigation  ul{
+    list-style-type: none;
+    display: flex;
+    gap:4.4rem;
+}
+header .nav-item-1{
+    color:#FF5400;
+    font-weight: 700;
+}
+header .bar {
+    display: none;
+}
+header .bar i{
+    font-size:2.5rem;
+}
+/* banner */
+header .banner{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url("../img/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 1.6rem;
+    text-align: center;
+    padding:10.6rem 14.5rem;
+}
+header .banner .banner-description{
+    color:#fff;
+    width:80%;
+    margin:auto;
+}
+header .banner .banner-input{
+    margin-top: 4.8rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: .8rem;
+    gap:2.4rem;
+    padding:1.6rem;
+}
+header .banner .input-item{
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+    border-radius: .8rem;
+    padding:1.6rem;
+    justify-content: space-between;
+}
+header .banner .input-item input{
+    border:none;
+    outline:none;
+    width:70%;
+    font-size:1.6rem;
+}
+header .banner .input-item i{
+    font-size:2.4rem;
+    color:rgba(19, 19, 24, 0.7)
+}
+header .banner .banner-btn{
+    font-size:1.6rem;
+    font-weight: 700;
+}
+header .banner .banner-btn i{
+    padding-right:1rem;
+}
