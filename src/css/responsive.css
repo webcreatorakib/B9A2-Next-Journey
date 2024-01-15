@@ -35,6 +35,9 @@
     h1 {
         font-size: 4rem;
     }
+    h2{
+        font-size: 3.5rem;
+    }
     h3{
         font-size:2.5rem;
     }
@@ -53,6 +56,20 @@
     }
     header .banner .banner-input {
         grid-template-columns: repeat(2,1fr);
+    }
+    /* _______Here is popular section___________ */
+    #popular {
+        padding: 5rem 0;
+    }
+    #popular .popular-elements{
+        flex-direction: column;
+    }
+    #popular .popular-content{
+        width:100%;
+        text-align: justify;
+    }
+    #popular .popular-img{
+        width:100%;
     }
 }
 /*============Responsive for small device(under 576px)============*/
@@ -75,5 +92,9 @@
     }
     header .banner {
         padding: 3.2rem 2rem;
+    }
+    /* _______Here is popular section___________ */
+    h2{
+        font-size:2rem;
     }
 }

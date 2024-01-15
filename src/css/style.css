@@ -18,7 +18,7 @@ h1{
     font-size: 6.4rem;
     font-weight: 800;
     color:#fff;
-    margin-bottom:2.4rem;
+    margin:2.4rem 0;
 }
 h2{
     font-size: 4rem;
@@ -35,12 +35,16 @@ p{
     font-weight: 400;
     color:rgba(19, 19, 24, 0.70);
     line-height: 2.6rem;
+    margin:2.4rem 0;
 }
 a{
     text-decoration: none;
     font-size: 1.8rem;
     font-weight: 400;
     color:#424247;
+}
+section{
+    padding-bottom:10rem;
 }
 .btn{
     border:none;
@@ -51,6 +55,7 @@ a{
     font-weight: 800;
     text-align: center;
     cursor: pointer;
+    font-size:2rem;
 }
 /* _________Here is Header style__________ */
 /* navigation bar */
@@ -131,3 +136,29 @@ header .banner .banner-btn{
 header .banner .banner-btn i{
     padding-right:1rem;
 }
+/* ________End header section_________________________ */
+/* ________Here is our popular section style___________ */
+#popular{
+    padding:10rem 0;
+}
+#popular .popular-elements{
+    display: flex;
+    gap:5.3rem;
+}
+#popular .popular-content{
+    width:50%;
+}
+#popular ul {
+    list-style-type: circle;
+    padding-left: 3rem;
+}
+#popular .popular-summary{
+    margin-bottom: 3.2rem;
+}
+#popular .popular-img{
+    width:50%;
+}
+#popular .popular-img img{
+    width:100%;
+}
+/* ______End Popular section__________________________ */
