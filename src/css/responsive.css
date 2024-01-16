@@ -135,6 +135,10 @@
     #news-latter .news-latter-img{
         width:100%;
     }
+    /* _______Here is footer section_________ */
+    footer{
+        padding:5rem 0;
+    }
 }
 /*============Responsive for small device(under 576px)============*/
 @media screen and (max-width:576px){
@@ -230,5 +234,9 @@
         right: 0rem;
         bottom: 5rem;
         transform: rotate(-30deg);
+    }
+    /* _______Here is footer section_________ */
+    footer{
+        padding:2.4rem 0;
     }
 }

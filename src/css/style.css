@@ -76,11 +76,11 @@ header nav{
     align-items: center;
     padding:5rem 0;
 }
-header .logo{
+.logo{
     display: flex;
     gap:1.6rem;
 }
-header .logo h3 span{
+.logo h3 span{
     color:#FF5400;
 }
 header .navigation  ul{
@@ -412,4 +412,32 @@ section______ */
     margin:0;
     font-size:2.4rem;
     color:#fff;
+}
+/* _______Here is footer section_______ */
+footer{
+    background-color:rgba(19, 19, 24, 0.05);
+    padding:10rem 0;
+}
+.footer-logo{
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+footer .footer-content{
+    text-align: center;
+}
+.footer-social{
+    display: flex;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top:3.2rem;
+    margin-bottom:5rem;
+}
+.footer-social div i{
+    font-size:3rem;
+    color:#131318;
+}
+.copyright{
+    margin-top:5rem;
 }
