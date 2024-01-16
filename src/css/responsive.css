@@ -1,9 +1,12 @@
 
-/*===========Responsive for large device(768px to 992px)===========*/
-@media screen and (max-width:992px){
+/*===========Container padding for extra large device under 1170px===========*/
+@media screen and (max-width:1170px){
     .container{
         padding:0 2rem;
     }
+}
+/*===========Responsive for large device(768px to 992px)===========*/
+@media screen and (max-width:992px){
     h1{
         font-size:6rem;
     }
