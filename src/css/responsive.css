@@ -234,8 +234,8 @@
     }
     #news-latter .news-latter-discount {
         padding: 1rem 1.5rem;
-        right: 0rem;
-        bottom: 5rem;
+        right: 1rem;
+        bottom: 6rem;
         transform: rotate(-30deg);
     }
     /* _______Here is footer section_________ */
