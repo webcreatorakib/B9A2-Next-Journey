@@ -72,6 +72,12 @@
         width:100%;
     }
     /* __________Here is destination section_________ */
+    section {
+        padding-bottom: 5rem;
+    }
+    .destinations-description {
+        width: 80%;
+    }
     #destinations .row-1{
         flex-direction: column;
     }
@@ -83,6 +89,16 @@
     }
     #destinations .destinations-img img{
         height:28.5rem;
+    }
+   /*________Here is Why Choose us section______> */
+   #choose{
+    padding-bottom: 5rem;
+   }
+   #choose .choose-row{
+        flex-direction: column;
+    }
+    #choose .choose-card-item {
+        width:100%;
     }
 }
 /*============Responsive for small device(under 576px)============*/
@@ -120,7 +136,10 @@
         padding: 3.2rem 2rem;
     }
     /* __________Here is destination section_________ */
-    #destinations .destinations-description {
+    #destinations{
+        padding-bottom:0rem;
+    }
+    .destinations-description {
         width: 100%;
     }
     #destinations .destinations-img img{
@@ -128,5 +147,18 @@
     }
     #destinations .destinations-gallery {
         margin-top: 1.6rem;
+    }
+    /*________Here is Why Choose us section______> */
+    #choose{
+        padding-bottom: 2.4rem;
+    }
+    #choose .choose-card {
+        margin-top: 1.6rem;
+    }
+    #choose .choose-row{
+        flex-direction: column;
+    }
+    #choose .choose-card-item {
+        width:100%;
     }
 }
