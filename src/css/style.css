@@ -24,6 +24,7 @@ h2{
     font-size: 4rem;
     font-weight: 800;
     color:#131318;
+    line-height: 6rem;
 }
 h3{
     font-size:3.6rem;
@@ -316,3 +317,36 @@ header .banner .banner-btn i{
     margin-top:4.8rem;
 }
 /*  _______End is Deals & Discounts section_______ */
+/* ________Here is A Simple Perfect Place To Get Lost 
+section______ */
+#place .place-elements{
+    display: flex;
+    gap:2.8rem;
+}
+#place .place-content{
+    width:50%;
+}
+#place .place-title{
+    padding-right: 8rem;
+}
+#place .place-content ul{
+    padding-left:3rem;
+}
+#place .place-content ul li{
+    font-weight: bold;
+    font-size:1.6rem;
+    margin-bottom: 1.6rem;
+}
+#place .place-content .btn{
+    margin-top: 2rem;
+}
+#place .place-video{
+    width:50%;
+}
+#place .place-video video{
+    width:100%;
+    border-radius:1.6rem;
+    height: 100%;
+    object-fit: cover;
+}
+/* ________End A Simple Perfect Place To Get Lost section______ */

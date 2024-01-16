@@ -39,8 +39,9 @@
     h1 {
         font-size: 4rem;
     }
-    h2{
+    h2 {
         font-size: 3.5rem;
+        line-height: 3.5rem;
     }
     h3{
         font-size:2.5rem;
@@ -114,6 +115,16 @@
     #discount .discount-card {
         padding: 3rem;
     }
+     /* ____________Here is A Simple Perfect Place To Get Lost section____________ */
+     #place .place-elements{
+        flex-direction: column;
+    }
+    #place .place-content{
+        width:100%;
+    }
+    #place .place-video{
+        width:100%;
+    }
 }
 /*============Responsive for small device(under 576px)============*/
 @media screen and (max-width:576px){
@@ -128,6 +139,11 @@
     }
     h4{
         margin-bottom:1.6rem;
+        font-size: 2rem;
+    }
+    .btn{
+        font-size:1.8rem;
+        font-weight: 700;
     }
     section{
         padding-bottom: 2.4rem;
@@ -169,6 +185,9 @@
     #choose .choose-card {
         margin-top: 1.6rem;
     }
+    #choose .choose-card-item h4 {
+        font-size: 2rem;
+    }
     #choose .choose-row{
         flex-direction: column;
     }
@@ -182,4 +201,12 @@
     .discount-row-container {
         padding: 18.7rem 1.6rem 1.6rem 1.6rem;
     }
+    #discount .discount-card h5 {
+        margin-bottom: 1.6rem;
+    }
+    #discount .discount-card .btn{
+        font-size:1.8rem;
+        font-weight: 700;
+    }
+    /* ____________Here is A Simple Perfect Place To Get Lost section____________ */
 }
