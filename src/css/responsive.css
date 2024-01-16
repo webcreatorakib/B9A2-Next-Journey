@@ -13,6 +13,9 @@
     h3{
         font-size:3rem;
     }
+    h5 {
+        font-size: 1.5rem;
+    }
     /* ______Here is header section_________ */
     header .logo{
         align-items: center;
@@ -35,6 +38,11 @@
     /* _______Here is Deals & Discounts section_______*/
     #discount .discount-card {
         width: 80%;
+    }
+    /* ______Here is client review__________ */
+    .client-img img {
+        width: 5rem;
+        height: 5rem;
     }
 }
 /*==========Responsive for medium device(576px to 768px)==========*/
@@ -142,6 +150,10 @@
     footer{
         padding:5rem 0;
     }
+    /* _______here is client review________ */
+    .client-review{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 /*============Responsive for small device(under 576px)============*/
 @media screen and (max-width:576px){
@@ -237,6 +249,10 @@
         right: 1rem;
         bottom: 6rem;
         transform: rotate(-30deg);
+    }
+    /* _______here is client review section_______ */
+    .client-name-star i {
+        font-size: 1.5rem;
     }
     /* _______Here is footer section_________ */
     footer{

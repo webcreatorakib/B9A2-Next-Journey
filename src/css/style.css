@@ -257,6 +257,51 @@ header .banner .banner-btn i{
     margin-bottom:3.2rem;
 }
 /* _______End Why choose us section________ */
+/* _______Here is our review section________ */
+#review .review-content{
+    text-align: center;
+    margin-bottom:4.8rem;
+}
+.client-review{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:2.4rem;
+    justify-content: center;
+    align-items: center;
+}
+#review .client-card{
+    display: flex;
+    padding:2rem;
+    background:#f7f7f7;
+    border-radius: 1.6rem;
+}
+.client-img img{
+    width:10rem;
+    height:10rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.client-name-star{
+    display: flex;
+    justify-content: space-between;
+    padding:2rem;
+}
+.client-name-star h5{
+    color: #12022f;
+}
+.client-name-star p{
+    margin:.5rem 0;
+    color: #898989;
+}
+.client-name-star i{
+    font-size:2rem;
+    color:#FF5400;
+}
+.seemore-btn{
+    text-align: center;
+    margin-top:4.8rem;
+}
+/* _______End our review section________ */
 /* _______Here is Deals & Discounts section_______*/
 #discount .discount-content{
     text-align: center;
