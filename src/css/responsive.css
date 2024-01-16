@@ -125,6 +125,16 @@
     #place .place-video{
         width:100%;
     }
+    /* _______Here is news latter section ____________*/
+    #news-latter .news-latter-elements{
+        flex-direction: column;
+    }
+    #news-latter .news-latter-content{
+        width:100%;
+    }
+    #news-latter .news-latter-img{
+        width:100%;
+    }
 }
 /*============Responsive for small device(under 576px)============*/
 @media screen and (max-width:576px){
@@ -208,5 +218,17 @@
         font-size:1.8rem;
         font-weight: 700;
     }
-    /* ____________Here is A Simple Perfect Place To Get Lost section____________ */
+    /* _______Here is news latter section ____________*/
+    #news-latter .news-latter-discount h3 {
+        font-size: 2.5rem;
+    }
+    #news-latter .news-latter-discount p {
+        font-size: 1.6rem;
+    }
+    #news-latter .news-latter-discount {
+        padding: 1rem 1.5rem;
+        right: 0rem;
+        bottom: 5rem;
+        transform: rotate(-30deg);
+    }
 }
