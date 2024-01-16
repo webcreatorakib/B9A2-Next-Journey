@@ -35,6 +35,11 @@ h4{
     font-weight: 800;
     color:#fff;
 }
+h5{
+    font-size: 2rem;
+    font-weight: 800;
+    color:#FF5400;
+}
 p{
     font-size:1.6rem;
     font-weight: 400;
@@ -250,3 +255,64 @@ header .banner .banner-btn i{
 #choose .choose-card-item img{
     margin-bottom:3.2rem;
 }
+/* _______End Why choose us section________ */
+/* _______Here is Deals & Discounts section_______*/
+#discount .discount-content{
+    text-align: center;
+    margin-bottom: 4.8rem;
+}
+.discount-row-container{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1.6rem;
+    padding:5.6rem;
+    margin-bottom: 2.4rem;
+}
+.discount-row-container-1{
+    background-image: url("../img/discount-1.png");
+}
+.discount-row-container-2{
+    background-image: url("../img/discount-2.png");
+}
+#discount .discount-row{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#discount .discount-row-2{
+    justify-content: start;
+}
+#discount .discount-card{
+    background: rgba(255, 255, 255, 0.80);
+    width:50%;
+    padding:5rem;
+    border-radius: 1.6rem;
+}
+#discount .discount-card ul{
+    list-style-type: none;
+    display: flex;
+    gap:2.4rem;
+}
+#discount .discount-card ul li{
+    font-size:1.6rem;
+}
+#discount .discount-card ul i{
+    color:#FF5400;
+    padding-right:.8rem;
+}
+#discount .discount-card-title{
+    color:#131318;
+    margin-top:2.6rem;
+}
+#discount-card-description{
+    color:#5A5A5D;
+}
+#discount .discount-card h5{
+    margin-bottom:2.4rem;
+}
+#discount .discount-btn{
+    text-align: center;
+    margin-top:4.8rem;
+}
+/*  _______End is Deals & Discounts section_______ */

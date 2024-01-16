@@ -29,6 +29,10 @@
     header .banner-btn{
         padding:0;
     }
+    /* _______Here is Deals & Discounts section_______*/
+    #discount .discount-card {
+        width: 80%;
+    }
 }
 /*==========Responsive for medium device(576px to 768px)==========*/
 @media screen and (max-width:768px){
@@ -100,6 +104,16 @@
     #choose .choose-card-item {
         width:100%;
     }
+    /* _______Here is Deals & Discounts section_______*/
+    #discount .discount-card {
+        width: 100%;
+    }
+    #discount .discount-card ul {
+        gap: 2rem;
+    }
+    #discount .discount-card {
+        padding: 3rem;
+    }
 }
 /*============Responsive for small device(under 576px)============*/
 @media screen and (max-width:576px){
@@ -160,5 +174,12 @@
     }
     #choose .choose-card-item {
         width:100%;
+    }
+    /* _______Here is Deals & Discounts section_______*/
+    #discount .discount-card ul {
+        flex-wrap: wrap;
+    }
+    .discount-row-container {
+        padding: 18.7rem 1.6rem 1.6rem 1.6rem;
     }
 }
